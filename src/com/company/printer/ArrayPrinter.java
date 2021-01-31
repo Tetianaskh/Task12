@@ -8,6 +8,7 @@ import java.util.Arrays;
  * 2) защищенный метод printElem(int elem) для вывода одного элемента (в базовом классе пуст)
  */
 public class ArrayPrinter {
+
     public void print(int array[]) {
         for (int i = 0; i < array.length; i++) {
             System.out.println(Arrays.toString(array));
@@ -15,6 +16,6 @@ public class ArrayPrinter {
     }
 
     protected void printElem(int elem) {
-        System.out.println(elem);
+
     }
 }

@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.arrays.Arrays;
 import com.company.printer.ArrayPrinter;
 
 public class Task12 {
@@ -13,6 +14,6 @@ public class Task12 {
      * реализаций пользоваться для вывода и поочередно вывести эти массивы используя arrayPrinter
      */
     public static void main(String[] args) {
-	// write your code here
+
     }
 }
